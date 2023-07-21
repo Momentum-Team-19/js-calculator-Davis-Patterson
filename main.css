@@ -159,3 +159,20 @@ h1 {
                 inset -5px -5px 8px #fff;
                 background: #fff;
 }
+
+.btns .row button:active {
+animation: clickEffect 0.3s ease;
+}
+
+@keyframes clickEffect {
+0% {
+    box-shadow: inset 2px 2px 4px rgba(16, 16, 16, 0.1),
+                inset -2px -2px 4px #fff;
+    background: #f9f9f9;
+}
+100% {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1),
+                inset -5px -5px 8px #fff;
+    background: #fff;
+}
+}
