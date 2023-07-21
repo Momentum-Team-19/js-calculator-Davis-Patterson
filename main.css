@@ -143,6 +143,17 @@ body {
                 -5px -5px 8px #ffffff;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: cochin;
+    color: #ecf0f3;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
+                2px -2px 0 rgba(255, 255, 255, 0.9);
+}
+
 .btns .row button:hover {
     box-shadow: inset 5px 5px 8px rgba(16,16,16,.1),
                 inset -5px -5px 8px #fff;
